@@ -12,24 +12,31 @@
     <br />
 
     <style>
-      .indent-1 {
+      #leftbox {
         float: left;
+        width: 25%;
+        height: 280px;
       }
-      .indent-1 section {
-        width: 50%;
+      #middlebox {
         float: left;
+        width: 50%;
+        height: 280px;
+      }
+      #rightbox {
+        float: right;
+        width: 25%;
+        height: 280px;
       }
     </style>
-    <section class="indent-1">
-      <section>
-        <p>Here is your random tarot card draw:</p>
 
-        <div id="tarot"></div>
-      </section>
-      <section>
-        <div id="moon"></div>
-      </section>
-    </section>
+    <div id="leftbox">
+      <p>Here is your random tarot card draw:</p>
+      <div id="tarot"></div>
+    </div>
+    <div id="rightbox">
+      <div id="moon"></div>
+    </div>
+
     <button onclick="location.reload();">Click to refresh the page!</button>
 
     <script
