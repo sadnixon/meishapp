@@ -86,7 +86,7 @@
         var num = Math.floor(Math.random() * images.length),
             pic = images[num][0],
             link = images[num][1],
-            imgString = '<a href="https://en.wikipedia.org/wiki/' + link + '"> <img src="https://sadnixon.github.io/meishapp/tarots/' + pic + '.jpeg" /> </a>';
+            imgString = '<a href="https://en.wikipedia.org/wiki/' + link + '"> <img src="https://sadnixon.github.io/meishapp/tarots/' + pic + '.jpeg" width=440" height="764" /> </a>';
 
         return imgString;
     }
