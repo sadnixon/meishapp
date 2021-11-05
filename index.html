@@ -1,32 +1,43 @@
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Meish App</title>
-    
-</head>
-    
-<body>
+  </head>
 
+  <body>
     <h1>The Meish Astrology App</h1>
-    <br>
-    <p>Here is your random tarot card draw:</p>
-    
-    <div id="tarot">
-    
-    </div>
+    <br />
 
-    <div id="moon">
-    
-    </div>
-    
+    <style>
+      .indent-1 {
+        float: left;
+      }
+      .indent-1 section {
+        width: 50%;
+        float: left;
+      }
+    </style>
+    <section class="indent-1">
+      <section>
+        <p>Here is your random tarot card draw:</p>
+
+        <div id="tarot"></div>
+      </section>
+      <section>
+        <div id="moon"></div>
+      </section>
+    </section>
     <button onclick="location.reload();">Click to refresh the page!</button>
-    
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
     <script src="js/moonphases.js"></script>
-</body>
+  </body>
 </html>
