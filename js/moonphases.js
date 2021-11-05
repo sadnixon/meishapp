@@ -27,6 +27,5 @@
             break
         }
     }
-
-    $("moon").append('<p>The Moon Phase is ' + thephase + '</p>')
+    $("#moon").append('<p>The Moon Phase is ' + thephase + '</p>')
 })();
