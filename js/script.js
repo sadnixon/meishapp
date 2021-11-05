@@ -22,11 +22,11 @@
     function getRandomImage(images) {
         var num = Math.floor(Math.random() * images.length),
             pic = images[num],
-            imgString = '<img src="' + pic + '" height="100%" width="100%" />';
+            imgString = '<img src="' + pic + '" />';
 
         return imgString;
     }
 
-    $("#picture").append(getRandomImage(Images));
+    $("#tarot").append(getRandomImage(Images));
 
 })();
