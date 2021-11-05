@@ -2,14 +2,21 @@
     "use strict";
     
     var Images = [
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Black-Ice.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Colour-Storm.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Electric-Water.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Lime-Drops.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Natural-Bubbles.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Nice-Try.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Peach-Hexagon.jpg',
-        'https://agskryp.github.io/Random-Image-jQuery/Images/Background---Room-303.jpg'
+        'https://sadnixon.github.io/meishapp/tarots/Wands01.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands02.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands03.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands04.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands05.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands06.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands07.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands08.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands09.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands10.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands11.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands12.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands13.jpeg',
+        'https://sadnixon.github.io/meishapp/tarots/Wands14.jpeg',
+        
     ];
 
     function getRandomImage(images) {
