@@ -1,8 +1,8 @@
 (function() {
     const lunardays = 29.53058770576;
-    const lunarsecs = lunardays * 24 * 60 * 60;
-    const unixdate = Math.floor(Date.now() / 1000);
-    const new2000 = 947182440;
+    const lunarsecs = Math.floor(lunardays * 24 * 60 * 60 * 1000);
+    const unixdate = Math.floor(Date.now() * 1);
+    const new2000 = 947182440000;
     const totalsecs = unixdate - new2000;
     const currentsecs = totalsecs % lunarsecs;
     const currentfrac = currentsecs / lunarsecs;
